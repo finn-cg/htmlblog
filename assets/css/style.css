@@ -130,11 +130,19 @@ a {
     width: calc((100% / 3) - 16px);
 }
 
-.row-background-dark {
+/* .row-background-dark {
+    background-color: rgb(64, 64, 64) !important;
+} */
+
+.table-section.dark > div:nth-child(even) {
     background-color: rgb(64, 64, 64) !important;
 }
 
-.row-background-light {
+/* .row-background-light {
+    background-color: #E7E9EB !important;
+} */
+
+.table-section.light > div:nth-child(even) {
     background-color: #E7E9EB !important;
 }
 
